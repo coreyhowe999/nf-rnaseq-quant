@@ -2,7 +2,7 @@ process MULTIQC {
     label 'process_low'
     publishDir "${params.outdir}/multiqc", mode: params.publish_dir_mode
 
-    container 'biocontainers/multiqc:1.21--pyhdfd78af_0'
+    container 'quay.io/biocontainers/multiqc:1.21--pyhdfd78af_0'
 
     input:
     path '*'   // any QC outputs piled into the working dir

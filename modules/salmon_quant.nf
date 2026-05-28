@@ -3,7 +3,7 @@ process SALMON_QUANT {
     label 'process_high'
     publishDir "${params.outdir}/salmon", mode: params.publish_dir_mode
 
-    container 'biocontainers/salmon:1.10.2--h7e5ed60_0'
+    container 'quay.io/biocontainers/salmon:1.10.2--h7e5ed60_0'
 
     input:
     tuple val(meta), path(reads)
