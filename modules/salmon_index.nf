@@ -3,7 +3,7 @@ process SALMON_INDEX {
     label 'process_medium'
     publishDir "${params.outdir}/salmon", mode: params.publish_dir_mode
 
-    container 'quay.io/biocontainers/salmon:1.10.2--h7e5ed60_0'
+    container 'quay.io/biocontainers/salmon:1.10.2--hecfa306_0'
 
     input:
     path transcriptome
