@@ -1,0 +1,30 @@
+# Nextflow
+.nextflow*
+work/
+results/
+results-*/
+.nf-test/
+.nf-test.log
+nf-test.config
+
+# Test outputs
+test-results/
+trace.txt
+report.html
+timeline.html
+dag.*
+
+# Python (for any helper scripts)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
